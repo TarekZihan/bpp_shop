@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-[#F9F9FB]">
+    <!-- Sidebar -->
+    <div class="flex ">
+        <aside class="w-72 h-[100vh] bg-[#073b74] font-sans ">
+            <div class="bg-white h-[60px] flex justify-center items-center">
+                <figure class="max-w-[90px] "><img src="./Img/Bpp Logo/bpp.logo.png" alt=""></figure>
+            </div>
+            <div class="  w-full p-[20px]">
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Dashboard
+                    </p>
+                </a>
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">ORDER MANAGMENT</h6>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Order
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>All Products With Orders
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Refund Request List
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">PRODUCT MANAGEMENT</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Products
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-star mr-5'></i>Product Reviews
+                    </p>
+
+                </a>
+
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">HELP & SUPPORT SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-message mr-5'></i>Message
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">BUSINESS SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-money-withdraw mr-5'></i>Withdraw
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>My Bank Info
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="shop.html">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-shopping-bag mr-5'></i>My Shop
+                    </p>
+
+                </a>
+            </div>
+ </aside>
+
+        <!-- Navbar -->
+
+        <section class=" h-[100vh]  overflow-auto">
+            <nav class="flex gap-2 sticky top-0 items-center  justify-end bg-white  h-[60px]  border w-[100%] ">
+                <p class="">
+                <figure><img class="mr-4" src="./Img/Nav font Awesome img/en.png" alt=""></figure>English</p>
+                <i class='bx bx-globe'></i>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-message mr-4'></i>
+                <a class="no-underline" href="">
+                    <h2 class="font-semibold text-sm mr-4">BPP SHOP MANGO</h2>
+                </a>
+                <a href=""><img class="rounded-full max-w-[50px] mr-10 no-underline"
+                        src="../Tailwind Project/Img/Login Img/img1.jpg" alt=""></a>
+            </nav>
+
+            <!-- shop -->
+
+            <div class="p-6 mt-5">
+                <div class="flex items-center gap-3  ">
+                    <img class="w-[20px] " src="./Img/shop/shop-info.png" alt="">
+                    <h1 class="font-bold text-[20px]">Edit Shop Info</h1>
+                </div>
+                <div class="bg-white rounded-md p-5 mt-5 shadow-md">
+                    <h1 class="text-[#334257] font-bold ">Edit Shop Info</h1>
+                </div>
+
+                <form class="bg-white shadow-md  hover:shadow-inner p-5" action="">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <div>
+                                <label class="block text-[#5B6777] mb-3" for="">Shop Name *</label>
+                                <input class="border w-full outline-none rounded-md p-2" type="text">
+                            </div>
+
+                            <div class="">
+                                <label class="block text-[#5B6777] mb-3" for="">Contact ( * Country Code Is Must Like For BD 880 )</label>
+                                <input class="border w-full outline-none rounded-md p-2" type="text">
+                            </div>
+
+                            <div class="col-span-2">
+                                <label class="block text-[#5B6777] mb-3" for="">Address</label>
+                                <textarea class="border w-full outline-none rounded-md p-2" name="" id="" cols="90" rows="10"></textarea>
+                            </div>
+                            <div class="col-span-2">
+                                <label class="block text-[#5B6777] mb-3" for=""> Upload Banner Ratio : ( 6:1 )</label>
+                                <input class="border outline-none w-full p-2 rounded-md " type="file">
+                            </div>
+                            <div class="col-span-2">
+                                <img class="w-[200px] m-auto mt-5" src="./Img/shop/Mango.png" alt="">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="common_input">
+                                <label class="block text-[#5B6777] mb-3" for="">Upload Image *</label>
+                                <input class="border outline-none w-full p-2 rounded-md" type="file">
+                            </div>
+                            <div class="col-span-1 ">
+                                <img class="w-[200px] m-auto mt-5" src="./Img/shop/Mango.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-end gap-3">
+                        <a href=""><button class="bg-[#dc3545] text-white px-2 rounded-sm ">Cancel</button></a>
+                        <a href=""><button class="bg-[#0d6efd] text-white px-2 rounded-sm ">Update</button></a>
+                    </div>
+                </form>
+                <p class="text-[#5b6777] mt-5">Copyright © https://backend.bppshop.com.bd 2023</p>
+            </div>
+            
+
+        </section>
+    </div>
+</body>
+
+</html>

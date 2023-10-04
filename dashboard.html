@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="1stproject.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* .abc:hover {
+            background: rgba(0,0,0,.2);
+            color: #8ce98a;
+        } */
+    </style>
+
+</head>
+
+<body class="bg-[#F9F9FB]">
+    <!-- Sidebar -->
+    <div class="flex ">
+        <aside class="w-72 h-[250vh] bg-[#073b74] font-sans ">
+            <div class="bg-white h-[60px] flex justify-center items-center">
+                <figure class="max-w-[90px] "><img src="./Img/Bpp Logo/bpp.logo.png" alt=""></figure>
+            </div>
+            <div class="  w-full p-[20px]">
+                <a class="no-underline mb-[4px]" href="./dashboard.html">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Dashboard
+                    </p>
+                </a>
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">ORDER MANAGMENT</h6>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Order
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>All Products With Orders
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Refund Request List
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">PRODUCT MANAGEMENT</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Products
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-star mr-5'></i>Product Reviews
+                    </p>
+
+                </a>
+
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">HELP & SUPPORT SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-message mr-5'></i>Message
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">BUSINESS SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-money-withdraw mr-5'></i>Withdraw
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>My Bank Info
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-shopping-bag mr-5'></i>My Shop
+                    </p>
+
+                </a>
+            </div>
+        </aside>
+
+        <!-- Navbar -->
+        <section class="bg-white  h-[60px] justify-end border-2  border-slate-200 w-[100%]  ">
+            <nav class="flex gap-2  items-center justify-end">
+                <p class="">
+                <figure><img class="mr-4" src="./Img/Nav font Awesome img/en.png" alt=""></figure>English</p>
+                <i class='bx bx-globe'></i>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-message mr-4'></i>
+                <a class="no-underline" href="">
+                    <h2 class="font-semibold text-sm mr-4">BPP SHOP MANGO</h2>
+                </a>
+                <a href=""><img class="rounded-full max-w-[50px] mr-10 no-underline"
+                        src="../Tailwind Project/Img/Login Img/img1.jpg" alt=""></a>
+            </nav>
+
+            <!-- Dashboard -->
+
+            <div class="p-6 ">
+                <div class="flex items-center justify-between mt-8">
+                    <div class="font-bold">
+                        <h1>Dashboard</h1>
+                        <p class="text-sm text-[#334257]">Welcome message</p>
+                    </div>
+                    <div><a class="bg-[#377dff] text-white py-2 px-4 rounded-sm" href=""><button><i
+                                    class='bx bxs-square mr-2'></i>Products</button></a></div>
+                </div>
+
+                <div class=" rounded-md shadow-md bg-[white] mt-5 p-[30px]">
+                    <div class="">
+                        <h2 class="text-[#334257] flex items-center"><img class="mr-3"
+                                src="./Img/Business Analytics/business_analytics.png" alt=""> Business analytics</h2>
+                    </div>
+                    <div class="grid grid-cols-4 gap-3">
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center bg-[#F9F9FB] p-4 mt-3 rounded-md">
+                            <div class="flex gap-3 items-center">
+                                <div><img class="w-[20px]" src="./Img/Pending/pending.png" alt=""></div>
+                                <p class="font-semibold text-[#334257]">Pending</p>
+                            </div>
+                            <div>
+                                <span class="text-[#0661cb] font-bold">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Seller Wallet -->
+            <div class="p-6">
+                <div class=" grid grid-cols-3 p-6 gap-3 bg-white shadow-md rounded-md">
+                    <div class="shadow-lg">
+                        <div class="flex items-center p-5">
+                            <img class="w-[20px]" src="./Img/Seller Wallet/admin-wallet.png" alt="">
+                            <h1 class="font-bold text-[#334257] ml-5 ">Seller Wallet</h1>
+                        </div>
+                        <div class="bg-[#F9F9FB] flex items-center justify-center flex-col p-12 rounded-md">
+                            <img class="w-[60px]" src="./Img/Withdraw Img/withdraw.png" alt="">
+                            <h1 class="font-bold text-[30px]">৳ 2,545,885.00</h1>
+                            <p class="text-[#334257] font-semibold">Withdrawable balance</p>
+                            <button class="bg-[#377dff] text-white py-2 px-4 rounded-sm mt-7">Withdraw</button>
+                        </div>
+                    </div>
+                    <div class="col-span-2 shadow-md [white] mt-16">
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+                            <div class=" bg-[#F9F9FB] flex justify-between items-center p-5">
+                                <div class="gap-2 flex ">
+                                    <img class="w-[20px]" src="./Img/Pending/pending.png" alt="">
+                                    <p class="text-[#334257] font-semibold">Pending</p>
+                                </div>
+
+                                <span class="text-[#0661cb] font-bold">0</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- graph -->
+
+            <div class="p-6">
+                <div class="bg-white rounded-md shadow-lg  flex justify-center items-center h-[200px]">
+                    <h1 class="text-[#373737] text-[30px] ">Graph Should be there</h1>
+                </div>
+            </div>
+
+            <!-- Top selling products -->
+
+            <div class="p-6 rounded-md   grid grid-cols-2 gap-2 flex ">
+                <div class="shadow-lg">
+                    <div class="col-span-2">
+                        <div class=" p-6 flex gap-2 bg-[white] rounded-md ">
+                            <div class=" flex items-center">
+                                <img class="w-[20px] mr-5"
+                                    src="./Img/Selling Product Img/Top Seling Product Img/admin-wallet.png" alt="">
+                                <h2 class="text-[#334257] font-semibold">Top Selling Product</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="p-6 bg-[white] rounded-md mt-2">
+                            <div class="flex justify-between gap-2 mb-7">
+                                <div class="flex">
+                                    <img class="w-[60px] rounded-md"
+                                        src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                    <p class="text-[#334257]">Himsagar Mango</p>
+                                </div>
+                                <div class="">
+                                    <button class="text-white bg-[#0177cd] px-5 rounded-md ">Sold<span
+                                            class="mx-[6px]">:</span>10</button>
+                                </div>
+                            </div>
+                            <div class="flex justify-between gap-2 mb-7">
+                                <div class="flex">
+                                    <img class="w-[60px] rounded-md"
+                                        src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                    <p class="text-[#334257]">Himsagar Mango</p>
+                                </div>
+                                <div class="">
+                                    <button class="text-white bg-[#0177cd] px-5 rounded-md ">Sold<span
+                                            class="mx-[6px]">:</span>10</button>
+                                </div>
+                            </div>
+                            <div class="flex justify-between gap-2 mb-7">
+                                <div class="flex">
+                                    <img class="w-[60px] rounded-md"
+                                        src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                    <p class="text-[#334257]">Himsagar Mango</p>
+                                </div>
+                                <div class="">
+                                    <button class="text-white bg-[#0177cd] px-5 rounded-md ">Sold<span
+                                            class="mx-[6px]">:</span>10</button>
+                                </div>
+                            </div>
+                            <div class="flex justify-between gap-2 mb-7">
+                                <div class="flex">
+                                    <img class="w-[60px] rounded-md"
+                                        src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                    <p class="text-[#334257]">Himsagar Mango</p>
+                                </div>
+                                <div class="">
+                                    <button class="text-white bg-[#0177cd] px-5 rounded-md ">Sold<span
+                                            class="mx-[6px]">:</span>10</button>
+                                </div>
+                            </div>
+                            <div class="flex justify-between gap-2 mb-7">
+                                <div class="flex">
+                                    <img class="w-[60px] rounded-md"
+                                        src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                    <p class="text-[#334257]">Himsagar Mango</p>
+                                </div>
+                                <div class="">
+                                    <button class="text-white bg-[#0177cd] px-5 rounded-md ">Sold<span
+                                            class="mx-[6px]">:</span>10</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fdf -->
+
+                <div style="overflow: hidden;" class="shadow-lg">
+                    <div class="mb-2">
+                        <div class="bg-white p-6 rounded-md">
+                            <div class="flex items-center">
+                                <img class="mr-5" src="./Img/Popular Product Img/most-popular-product.png" alt="">
+                                <h2 class="text-[#334257] font-semibold">Most Popular Products</h2>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="bg-white h-full">
+                        <div class="grid grid-cols-4 gap-3 p-3">
+                            <di shadow-lgv class="bg-white rounded shadow-lg p-5 mt-2 rounded-md text-center">
+                                <img class=" w-[60px] rounded-md m-auto"
+                                    src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                <p class="text-[12px] text-[#334257]">Himsagar Mango</p>
+                                <p class="text-[10px] mt-2 "><i class='bx bxs-star text-[orange] mr-2'></i>(2 Reviews)
+                                </p>
+
+                            </di>
+                            <div class="bg-white rounded p-5 mt-2 shadow-lg rounded-md text-center">
+                                <img class=" w-[60px] rounded-md m-auto"
+                                    src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                <p class="text-[12px] text-[#334257]">Himsagar Mango</p>
+                                <p class="text-[10px] mt-2 "><i class='bx bxs-star text-[orange] mr-2'></i>(2 Reviews)
+                                </p>
+
+                            </div>
+                            <div class="bg-white rounded p-5 mt-2 shadow-lg rounded-md text-center">
+                                <img class=" w-[60px] rounded-md m-auto"
+                                    src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                <p class="text-[12px] text-[#334257]">Himsagar Mango</p>
+                                <p class="text-[10px] mt-2 "><i class='bx bxs-star text-[orange] mr-2'></i>(2 Reviews)
+                                </p>
+
+                            </div>
+                            <div class="bg-white rounded p-5 mt-2 shadow-lg rounded-md text-center">
+                                <img class=" w-[60px] rounded-md m-auto"
+                                    src="./Img/Himsagor Mango/2023-06-06-647ee749a7fd2.png" alt="">
+                                <p class="text-[12px] text-[#334257]">Himsagar Mango</p>
+                                <p class="text-[10px] mt-2 "><i class='bx bxs-star text-[orange] mr-2'></i>(2 Reviews)
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="mt-5 text-[#334257]">Copyright © https://backend.bppshop.com.bd 2023</p>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

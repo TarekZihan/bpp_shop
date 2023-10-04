@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-[#F9F9FB]">
+    <!-- Sidebar -->
+    <div class="flex ">
+        <aside class="w-72 hidden lg:block h-[100vh] bg-[#073b74] font-sans ">
+            <div class="bg-white h-[60px] flex justify-center items-center">
+                <figure class="max-w-[90px] "><img src="./Img/Bpp Logo/bpp.logo.png" alt=""></figure>
+            </div>
+            <div class="  w-full p-[20px]">
+                <a class="no-underline mb-[4px]" href="main.html">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Dashboard
+                    </p>
+                </a>
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">ORDER MANAGMENT</h6>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Order
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>All Products With Orders
+                    </p>
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Refund Request List
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">PRODUCT MANAGEMENT</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>Products
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-star mr-5'></i>Product Reviews
+                    </p>
+
+                </a>
+
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">HELP & SUPPORT SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-message mr-5'></i>Message
+                    </p>
+
+                </a>
+
+                <h6 class="px-[10px] my-[20px] text-[15px] font-semibold text-[#a3b9d2]">BUSINESS SECTION</h6>
+
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-money-withdraw mr-5'></i>Withdraw
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-home mr-5'></i>My Bank Info
+                    </p>
+
+                </a>
+                <a class="no-underline mb-[4px]" href="">
+                    <p
+                        class="text-sm text-white abc hover:bg-[rgba(0,0,0,.2)] hover:text-[#8ce98a]  px-[10px] py-[6px]">
+                        <img src="" alt=""><i class='bx bx-shopping-bag mr-5'></i>My Shop
+                    </p>
+
+                </a>
+            </div>
+        </aside>
+
+        <!-- Navbar -->
+
+        <section class="bg-white  h-[60px] justify-end border  border-slate-200 w-[100%]  ">
+            <nav class="flex gap-2 items-center justify-end">
+                <p class="">
+                <figure><img class="mr-4" src="./Img/Nav font Awesome img/en.png" alt=""></figure>English</p>
+                <i class='bx bx-globe'></i>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-message mr-4'></i>
+                <a class="no-underline" href="">
+                    <h2 class="font-semibold text-sm mr-4">BPP SHOP MANGO</h2>
+                </a>
+                <a href=""><img class="rounded-full max-w-[50px] mr-10 no-underline"
+                        src="../Tailwind Project/Img/Login Img/img1.jpg" alt=""></a>
+            </nav>
+
+            <!-- product -->
+
+            <div class="p-6 text-[#5B6777]">
+                <div class="mt-5">
+                    <h1 class="font-bold text-[black] text-[21px]">Add New Product</h1>
+                </div>
+                <div class="bg-white rounded-md shadow-md mt-3 p-5 text-[#5B6777]">
+                    <div class="space-x-14 mb-5 ">
+                        <a href=""><span class="border-b-[3px] pb-[5px] hover:underline-offset-8">English
+                                (EN)</span></a>
+                        <a href=""><span class="underline hover:underline-offset-8">Bangla (BD)</span></a>
+                    </div>
+                    <div class="">
+                        <label for="">Name (EN)</label>
+                        <input class="w-full border p-2 outline-none mt-2" type="text" placeholder="New Product">
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-md  shadow-md mt-5">
+                    <div>
+                        <h2>General info</h2>
+                    </div>
+                    <div class=" mt-5">
+                        <div class="lg:grid grid-cols-3 gap-5 mb-5">
+                            <div>
+                                <label class="block" for="">Product Type</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label class="block" for="">Caterogy</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">---select---</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label class="block" for="">Sub-Category</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">---select---</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Sub-Sub Category</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label class="block" for="">Product Code Sku <span class="text-[#377dff]">* Generate
+                                        Code</span></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text" placeholder="New Product">
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Seller Code <span class="text-[#377dff]">* Generate
+                                        Code</span></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text" placeholder="Seller Code">
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Brand</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">---select---</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label class="block" for="">Unite</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">---select---</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                    <option value="">Physics</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- variation -->
+
+                <div class=" bg-white p-6 rounded-md  shadow-md mt-5">
+                    <div>
+                        <h2>Variation</h2>
+                    </div>
+                    <div class=" grid grid-cols-2 mt-5 gap-2">
+                        <div>
+                            <label class="block" for="">Color</label>
+                            <input class=" w-full border p-2 mt-2 outline-0" type="text" placeholder="New Product">
+                        </div>
+
+                        <div>
+                            <label class="block" for="">Attributes :</label>
+                            <input class=" w-full border p-2 mt-2 outline-0" type="text" placeholder="Seller Code">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Price Stock -->
+
+
+
+                <div class="bg-white p-6 rounded-md  shadow-md mt-5">
+                    <div>
+                        <h2>Product Price & stock</h2>
+                    </div>
+                    <div class=" mt-5">
+                        <div class="lg:grid grid-cols-3 gap-5 mb-5">
+
+                            <div>
+                                <label class="block" for="">Unite Price <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text" placeholder="Unite Price">
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Purchase Price <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text"
+                                    placeholder="Purchase Price">
+                            </div>
+                            <div>
+                                <label class="block" for="">Tex Percent ( % ) <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text">
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Discount Type</label>
+                                <select class="w-full border p-2 mt-2 outline-0" name="" id="">
+                                    <option value="">Flat</option>
+                                    <option value="">Flat</option>
+                                    <option value="">Flat</option>
+                                    <option value="">Flat</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label class="block" for="">Discount <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text">
+                            </div>
+
+                            <div>
+                                <label class="block" for="">Total Quantity<span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text">
+                            </div>
+                            <div>
+                                <label class="block" for="">Minimum Order Quantity <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text">
+                            </div>
+                            <div>
+                                <label class="block" for="">Snipping Cost <span class="text-[#377dff]"></label>
+                                <input class=" w-full border p-2 mt-2 outline-0" type="text">
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- seo section -->
+
+                <div class="">
+                    <div class="p-4 bg-white rounded-md shadow-lg mt-5">
+                        <h2 class="">Seo Section</h2>
+
+                        <div class="mt-5">
+                            <label class="block" for="">Meta Title :</label>
+                            <input class=" mt-2 w-full border p-2 outline-none" type="text" placeholder=" New product">
+                        </div>
+                        <div class="grid grid-cols-2 gap-5 mt-8">
+                            <div class="">
+                                <p>Meta image :</p>
+                                <img class="w-[220px] border-dashed border-2 p-1 mt-2 " src="./Img/product/img2.jpg" alt="">
+                            </div>
+                            <div>
+                                <p>Meta Description</p>
+                                <textarea class="border mt-1" name="" id="" cols="90" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+
+                <div class="p-4 bg-white rounded-md shadow-lg mt-5">
+                    
+                    <div class="mt-5">
+                        <label class="block" for="">Youtube Video link<span class="text-[#377dff]">( Optional please provide embed link not direct link. )</span></label>
+                        <input class=" mt-2 w-full border p-2 outline-none" type="text" placeholder="Ex : http://www.youtube.com/embed/5R06LRDuSE">
+                    </div>
+                    <div class="grid grid-cols-2 gap-5 mt-8">
+                        <div class="">
+                            <p>Upload Product Images <span class="text-[#377dff]"> * ( Ratio 1:1 )</span></p>
+                            <img class="w-[220px] border-dashed border-2 p-1 mt-2 " src="./Img/product/img2.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Upload Thumbnail <span class="text-[#377dff]"> * ( Ratio 1:1 )</span></p>
+                            <img class="w-[220px] border-dashed border-2 p-1 mt-2 " src="./Img/product/img2.jpg" alt="">
+                           
+                        </div>
+                    </div>
+                    <div class="mt-8 text-end">
+                        <button class="text-white bg-[#0d6efd] rounded-sm px-2 p-1 text-[14px]">Submet</button>
+                    </div>
+                </div>
+
+                <p class="mt-10">Copyright © https://backend.bppshop.com.bd 2023</p>
+
+            </div>
+
+
+
+        </section>
+    </div>
+</body>
